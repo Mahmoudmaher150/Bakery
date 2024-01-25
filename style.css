@@ -1,0 +1,282 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+   .home{
+    min-height: 100%;
+    background-color: aqua;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center center;
+   }
+   .center{
+    text-align: center;
+    padding-top: 150px;
+    color: aliceblue;
+   }
+.center h1{
+    font-size: 70px;
+}
+.center p{
+    font-size: 20px;
+}
+.button{
+    text-align: center;
+    padding-top: 15px;
+}
+.button1{
+    border: solid 1px rgba(255, 255, 255, 0.678);
+    text-decoration-line: none;
+    padding:15px;
+    color: white;
+    background-color: rgba(199, 162, 114, 0.932);
+}
+.button1:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.button2{
+    border: solid 1px rgba(255, 255, 255, 0.678);
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.button2:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.header{
+    overflow: auto;
+    width: 100%;
+    background-color:rgba(131, 125, 125, 0.514);
+    position: fixed;
+    top: 0;
+    padding: 10px;
+}
+.logo img{
+    width: 200px;
+    padding-left: 30px;
+    padding-top: 10px;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    float: right;
+    padding-top: 30px;
+    padding-right: 50px;
+    color: white;
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+nav a:hover{
+    color:red;
+}
+.section2{
+    width: 100%;
+    margin-top: 50px;
+    overflow: auto;
+}
+.alex img{
+    width: 35%;
+    padding-left: 50px;
+    float: left;
+}
+.right{
+    width: 40%;
+    float: left;
+    padding-left: 40px;
+}
+.clear2{
+    clear: both;}
+
+.list img{
+    width: 50px;
+}
+.words{
+    padding-left: 40px;
+}
+.section3{
+    width: 100%;
+    margin-top: 50px;
+}
+.leftwords{
+    width: 40%;
+    padding-left: 30px;
+    padding-top: 50px;
+    float: left;
+}
+.imgright img{
+    width: 40%;
+    padding-right: 30px;
+    float: right;
+}
+.clear3{
+    clear: both;
+}
+.centertext p{
+    color: gray
+}
+.section4{
+    width: 100%;
+    margin-top: 50px;
+    overflow: auto;
+}
+.centertext{
+    text-align: center;
+}
+.child1 img{
+    width: 100%; 
+}
+.child2 img{
+    width: 100%;
+}
+.child3 img{
+    width: 100%;
+}
+.child1{
+    width: 30%;
+    text-align: center;
+    padding-left: 30px;
+    float: left;
+}
+.child2{
+    width: 30%;
+    text-align: center;
+    padding-left: 30px;
+    float: left;
+}
+.child3{
+    width: 30%;
+    text-align: center;
+    padding-left: 30px;
+    float: left;
+}
+.clear4{
+    clear: both;
+}
+.section5{
+    width: 100%;
+    margin-top: 50px;
+}
+.info img{
+    width: 40px;
+    background-color: rgb(145, 97, 34);
+}
+
+.info{
+    width: 30%;
+    padding-left: 30px;
+    float: left;
+    
+}
+.map{
+    width: 40%;
+    float: left;
+    
+}
+.map iframe{
+    width: 100%;
+    padding-left: 200px;
+}
+.clear5{
+    clear: both;
+}
+.section6{
+    background-color: rgba(43, 38, 38, 0.932);
+    height: 50%;
+}
+.About h3{
+    color: white;
+}
+.About p{
+    color: grey;
+}
+.About{
+    width: 20%;
+    padding-left: 70px;
+    float: left;
+}
+.whywe{
+    width: 20%;
+    float: left;
+}
+.whywe h3{
+    color: white;
+    padding-left: 40px;
+}
+.whywe ul{
+    color: grey;
+}
+.whywe img{
+    width: 20px;
+}
+/* .whywe ul{
+ border-bottom: 5px;
+} */
+.openinghours{
+    width: 20%;
+    float: left;
+}
+.openinghours img{
+    width: 20px;
+}
+.openinghours ul{
+    color: gray;
+}
+.openinghours h3{
+    color: white;
+    padding-left: 40px;
+}
+.contactdetails{
+    width: 20%;
+    float: left;
+}
+.contactdetails img{
+    width: 20px;
+}
+.contactdetails h3{
+    color: white;
+    padding-left: 40px;
+}
+.contactdetails ul{
+    color: grey;
+}
+.clear6{
+    clear: both;
+}
+.section7{
+    margin-top: 0px;
+    height: 50%;
+    background-color: rgb(70, 66, 66);
+    overflow: auto;
+
+}
+.section7 .bl{
+    width: 200px;
+    padding-left: 500px;
+    padding-top: 100px;
+
+}
+.section7 a img{
+    width: 40px;
+    
+    
+}
+.section7 p{
+    text-align: center;
+    color: gray;
+
+}
+.anchor{
+    margin-left: 550px;
+    
+}
+.anchor .face:hover{
+    fill: blue;
+}
+
+.anchor .face{
+    transition: 0.5;
+}
+
